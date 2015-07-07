@@ -3,475 +3,524 @@
 <head lang="en">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css"/>
-    <title>ModnaKasta</title>
+    <title></title>
 </head>
 <body>
+<div class="container">
 
-<!--header-->
+    <!--header-->
 
-<div class="header">
-    <div class="header_place_container">
-        <div class="logo"><a href=""><img src="img/logo.png" alt=""/></a></div>
-        <div class="header_right-menu">
-            <div class="header_user-menu"><p class="contact_number">+380 44 355 5555</p></div>
-            <div class="header_user-menu"><a href="" class="header_menu_href">Мой профиль</a></div>
-            <div class="header_user-menu"><a href="" class="header_menu_href">Помощь</a></div>
-            <div class="header_user-menu header_user_menu_last "><a href="" class="header_menu_href">Корзина</a></div>
-            <div class="header_user_menu_basket"><a href="" class="basket_count "><span>3</span></a></div>
+    <div class="header">
+        <div class="top-bar">
+            <div class="top-bar__left">
+                <div class="logo">
+                    <a href="" class="logo__link"><img src="img/logo.png" class="logo__img" alt=""/></a>
+                </div>
+            </div>
+            <div class="top-bar__right">
+                <div class="user-panel">
+                    <div class="user-panel__tel-number">+380 44 355 5555</div>
+                    <ul class="user-panel__list">
+                        <li class="user-panel__item">
+                            <a class="user-panel__link" href="">Мой профиль</a>
+                        </li>
+                        <li class="user-panel__item">
+                            <a class="user-panel__link" href="">Помощь</a>
+                        </li>
+                        <li class="user-panel__item">
+                            <a class="user-panel__link user-panel__basket" href="">Корзина
+                                <i class="user-panel__icon"></i>
+                                <i class="user-panel__basket-icon">3</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="second-bar">
+            <div class="second-bar-container">
+                <div class="second-bar__left">
+                    <div class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="" class="menu__link"><span>Женщинам</span></a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link"><span>Мужчинам</span></a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link"><span>Детям</span></a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link"><span>Дом</span></a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link"><span>Досуг</span></a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link"><span>Outlet</span></a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link"><span>ModnaKarta</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="second-bar__right">
+                    <div class="search-bar">
+                        <input placeholder="Поиск" title="Search" type="text" class="search-bar__field"/>
+                        <button class="search-bar__button"><i class="search-bar__icon"></i></button>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="header_menu_container">
-        <div class="header_menu">
-            <div class="header_section">
-                <ul class="header_menu_items">
-                    <li class="">
-                        <a href="" class="header_menu_href header_nav-pan"><span>Женщинам</span></a>
-                    </li>
-                    <li>
-                        <a href="" class="header_menu_href header_nav-pan"><span>Мужчинам</span></a>
-                    </li>
-                    <li>
-                        <a href="" class="header_menu_href header_nav-pan"><span>Детям</span></a>
-                    </li>
-                    <li>
-                        <a href="" class="header_menu_href header_nav-pan"><span>Дом</span></a>
-                    </li>
-                    <li>
-                        <a href="" class="header_menu_href header_nav-pan"><span>Досуг</span></a>
-                    </li>
-                    <li>
-                        <a href="" class="header_menu_href header_nav-pan"><span>Outlet</span></a>
-                    </li>
-                    <li>
-                        <a href="" class="header_menu_href header_nav-pan"><span>ModnaKarta</span></a>
-                    </li>
+
+    <!--header end-->
+
+    <!--main-->
+    <div class="main-banner">
+        <div class="main-banner__img"></div>
+        <div class="main-banner__content">
+            <div class="breadcrumbs">
+                <a href="" class="breadcrumbs__link">Главная</a>
+                <span class="breadcrumbs__slash">/</span>
+                <a href="" class="breadcrumbs__link">Женщинам</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+    <div class="main-container">
+    <div class="sidebar">
+        <div class="sidebar__section">
+            <div class="sidebar-section__title">Категория</div>
+            <div class="sidebar__filters">
+                <div class="filters">
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox" checked/><div class="filters__name">Одежда</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Обувь</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Аксессуары</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Белье</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Косметика</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Украшения</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Носочно-чулочные изделия</div></label>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar__section">
+            <div class="sidebar-section__title">Подкатегория</div>
+            <div class="sidebar__filters">
+                <div class="filters">
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Блуза</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Брюки</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Джемпер</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Топ</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox" checked/><div class="filters__name">Жакет</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Комбинезон</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Туника</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Костюм</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Платье</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Футболка</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Юбка</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Шорты</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Майка</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Гольф</div></label>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar__section">
+            <div class="sidebar-section__title">Размерная сетка</div>
+            <div class="sidebar__filters">
+                <div class="filters">
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">EU</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">DE</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">IT</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox" checked/><div class="filters__name">FR</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">UK</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name active">INT</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">US</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox" checked/><div class="filters__name">AU</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">RU</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Japan</div></label>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar__section">
+            <div class="sidebar-section__title">Размеры</div>
+            <div class="sidebar__filters">
+                <div class="filters">
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">XS</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox" checked /><div class="filters__name">S</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name active">M</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox" checked /><div class="filters__name">L</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">XL</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">XXL</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">XXXL</div></label>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar__section">
+            <div class="sidebar-section__title">Бренды</div>
+            <div class="sidebar__filters">
+                <div class="filters">
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Jhiva</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Gingier</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Stradivarius</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox" checked /><div class="filters__name">Delfin Collection</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">BGL</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">El Passo</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Alexandra</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Ajay</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox" checked /><div class="filters__name">Aloe</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">EML</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Alchera</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Levus</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Alita</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Colin's</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">George Krutienko</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name active">Cardo</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox" checked /><div class="filters__name">Gloria</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Accordo</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Fifi Lakres</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Berenis</div></label>
+                    <label class="filters__item"><input type="checkbox" class="filters__checkbox"/><div class="filters__name">Clowse</div></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+    <div class="accordion">
+        <div class="accordion__filters-selection">
+            <div class="accordion__left">
+                <div class="filters-selection">
+                    <b class="filters-selection__text">Ваш выбор:</b>
+                    <ul class="filters-selection__list">
+                        <li class="filters-selection__item">Одежда<i class="filter__delete"></i></li>
+                        <li class="filters-selection__item">Платья<i class="filter__delete"></i></li>
+                        <li class="filters-selection__item">INT<i class="filter__delete"></i></li>
+                        <li class="filters-selection__item">M<i class="filter__delete"></i></li>
+                        <li class="filters-selection__item">Cardo<i class="filter__delete"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="accordion__right">
+                <b class="filter-sort__text">Сортировать: </b>
+                    <span class="sort__by">По возрастанию цены
+                            <i class="accordion__icon-down"></i>
+                        </span>
+            </div>
+        </div>
+        <div class="accordion__stock">
+            <div class="accordion__left">
+                <b class="stock__text">Акция:</b>
+                <span class="stock__item">El Passo,</span>
+                <span class="stock__item">BGL</span>
+            </div>
+            <div class="accordion__right">
+                <i class="accordion__icon"></i>
+            </div>
+        </div>
+        <div class="accordion__stock">
+            <div class="accordion__left">
+                <b class="stock__text">Акция:</b>
+                <span class="stock__item">Cardo,</span>
+                <span class="stock__item">Ginger</span>
+            </div>
+            <div class="accordion__right">
+                <i class="accordion__icon"></i>
+            </div>
+        </div>
+    </div>
+    <div class="products">
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item1.jpg" alt="" class="product__img"/>
+
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339 грн</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887 грн</span>
+                </div>
+            </div>
+            <div class="product-status product__sales">
+                <h3 class="product-status__text">Продано</h3>
+            </div>
+        </a>
+    </div>
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item2.jpg" alt="" class="product__img"/>
+
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339 грн</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887 грн</span>
+                </div>
+            </div>
+            <div class="product-status product__reserved">
+                <h3 class="product-status__text">Зарезервировано</h3>
+            </div>
+        </a>
+    </div>
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item3.jpg" alt="" class="product__img"/>
+
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339 грн</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887 грн</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item4.jpg" alt="" class="product__img"/>
+
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887 грн</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item5.jpg" alt="" class="product__img"/>
+
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887 грн</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item6.jpg" alt="" class="product__img"/>
+
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887 грн</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item7.jpg" alt="" class="product__img"/>
+
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item8.jpg" alt="" class="product__img"/>
+
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item9.jpg" alt="" class="product__img"/>
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item10.jpg" alt="" class="product__img"/>
+
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item11.jpg" alt="" class="product__img"/>
+
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item12.jpg" alt="" class="product__img"/>
+
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item1.jpg" alt="" class="product__img"/>
+
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="product-item">
+        <a href="" class="product__link"><img src="img/items/item2.jpg" alt="" class="product__img"/>
+
+            <div class="product-item__info">
+                <div class="product-info__top">
+                    <span class="product-item__brand">Cardo</span>
+                    <span class="product-item__new-cost">339</span>
+                </div>
+                <div class="product-info__bottom">
+                    <span class="product-item__category">Платье</span>
+                    <span class="product-item__old-cost">887</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!--main end-->
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="footer-left">
+            <div class="logo logo__footer">
+                <a href="" class="logo__link"><img src="img/logo.png" alt="" class="logo__img"/></a>
+            </div>
+            <div class="copyright">
+                <p class="copyright__text">&copy; 2007 - 2015 ООО "Маркасов"</p>
+                <p class="copyright__text">Все права защищены</p>
+            </div>
+            <div class="apps-link">
+                <div class="icon__gg">
+                    <a class="gg__link" href=""><img src="img/gg-play.png" alt="" class="img__gg-play"/></a>
+                </div>
+                <div class="icon__app">
+                    <a class="app-store__link" href=""><img src="img/app-store.png" alt="" class="img__app-store"/></a>
+                </div>
+                <div class="icon__visa">
+                    <a class="visa__link" href=""><img src="img/visa.png" alt="" class="img__mcard"/></a>
+                    <a class="mcard__link" href=""><img src="img/mcard.png" alt="" class="img__mcard"/></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__centre-left">
+            <div class="about__mk">
+                <ul class="about-mk__list">
+                    <li class="about-mk__first-item"><a href="" class="">О modnaKasta</a></li>
+                    <li class="about-mk__item"><a href="" class="about-mk__link">О шопинг-клубе</a></li>
+                    <li class="about-mk__item"><a href="" class="about-mk__link">Почему покупают у нас</a></li>
+                    <li class="about-mk__item"><a href="" class="about-mk__link">Бренды</a></li>
+                    <li class="about-mk__item"><a href="" class="about-mk__link">Мы</a></li>
+                    <li class="about-mk__item"><a href="" class="about-mk__link">Карьера</a></li>
+                    <li class="about-mk__item"><a href="" class="about-mk__link">Блог</a></li>
+                    <li class="about-mk__item"><a href="" class="about-mk__link">Каталоги</a></li>
                 </ul>
             </div>
-            <div class="header_menu_search">
-                <input placeholder="Поиск" title="Search" type="text" class="header_menu_search_field"/>
-                <a href="" class="header_menu_search_icon"></a>
-            </div>
         </div>
-    </div>
-</div>
-
-<!--Header end-->
-
-<!--main-->
-
-<div class="main">
-<div class="main_top">
-    <div class="banner"></div>
-    <div class="breadcrumbs">
-        <a href="">Главная</a>
-        <span class="breadcrumbs_slash">/</span>
-        <a href="">Женщинам</a>
-    </div>
-</div>
-<div class="main_content">
-
-<div class="main_page">
-<div class="sidebar sidebar_filters">
-    <div class="sidebar_filters_section">
-        <div class="filter_title">Категория</div>
-        <div class="filter_items_block">
-
-
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox" checked/><div class="filter_item">Одежда</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Обувь</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Аксессуары</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Белье</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Косметика</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Украшения</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Носочно-чулочные изделия</div></label>
-        </div>
-    </div>
-    <div class="sidebar_filters_section">
-        <div class="filter_title">Подкатегория</div>
-        <div class="filter_items_block">
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Блуза</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Брюки</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Джемпер</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Топ</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox" checked/><div class="filter_item">Жакет</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Комбинезон</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Туника</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Костюм</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Платье</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Футболка</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Юбка</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Шорты</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Майка</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Гольф</div></label>
-        </div>
-    </div>
-    <div class="sidebar_filters_section">
-        <div class="filter_title">Размерная сетка</div>
-        <div class="filter_items_block">
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">EU</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">DE</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">IT</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox" checked/><div class="filter_item">FR</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">UK</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item active">INT</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">US</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox" checked/><div class="filter_item">AU</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">RU</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Japan</div></label>
-        </div>
-    </div>
-    <div class="sidebar_filters_section">
-        <div class="filter_title">Размеры</div>
-        <div class="filter_items_block">
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">XS</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox" checked /><div class="filter_item">S</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item active">M</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox" checked /><div class="filter_item">L</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">XL</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">XXL</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">XXXL</div></label>
-        </div>
-    </div>
-    <div class="sidebar_filters_section">
-        <div class="filter_title">Бренды</div>
-        <div class="filter_items_block">
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Jhiva</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Gingier</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Stradivarius</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox" checked /><div class="filter_item">Delfin Collection</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">BGL</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">El Passo</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Alexandra</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Ajay</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox" checked /><div class="filter_item">Aloe</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">EML</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Alchera</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Levus</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Alita</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Colin's</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">George Krutienko</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item active">Cardo</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox" checked /><div class="filter_item">Gloria</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Accordo</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Fifi Lakres</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Berenis</div></label>
-            <label class="filter_label"><input type="checkbox" class="filter_lable_checkbox"/><div class="filter_item">Clowse</div></label>
-        </div>
-    </div>
-</div>
-<div class="products_catalog">
-<div class="products_filters">
-    <div class="products_filters_selection">
-        <div class="products_filters_selection_left">
-            <b>Ваш выбор:</b>
-            <span class="products_filters_active">Одежда<i class="products_filters_delete"></i></span>
-            <span class="products_filters_active">Платья<i class="products_filters_delete"></i></span>
-            <span class="products_filters_active">INT<i class="products_filters_delete"></i></span>
-            <span class="products_filters_active">M<i class="products_filters_delete"></i></span>
-            <span class="products_filters_active">Cardo<i class="products_filters_delete"></i></span>
-        </div>
-        <div class="products_filters_selection_right">
-            <b>Сортировать: </b><span class="products_filters_sort">По возрастанию цены <i
-                class="products_filters_ar_down"></i></span>
-        </div>
-    </div>
-    <div class="products_action">
-        <div class="products_action_left">
-            <b>Акция:</b>
-            <span>El Passo</span>,
-            <span>BGL</span>
-        </div>
-        <div class="products_action_right">
-            <i class="products_filters_ar"></i>
-        </div>
-    </div>
-    <div class="products_action">
-        <div class="products_action_left">
-            <b>Акция:</b>
-
-            <span class="products_action_brand">Cardo</span>,
-            <span class=>Ginger</span>
-        </div>
-        <div class="products_action_right">
-            <i class="products_filters_ar"></i>
-        </div>
-    </div>
-</div>
-<div class="products_list">
-<div class="products_item">
-    <a href=""><img src="img/items/item1.jpg" alt="" class="item_img"/>
-
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339 грн</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887 грн</span>
-            </div>
-        </div>
-        <div class="product_status product_sales">
-            <h3>Продано</h3>
-        </div>
-    </a>
-</div>
-<div class="products_item">
-    <a href=""><img src="img/items/item2.jpg" alt="" class="item_img"/>
-
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339 грн</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887 грн</span>
-            </div>
-        </div>
-        <div class="product_status product_reserved">
-            <h3>Зарезервировано</h3>
-        </div>
-    </a>
-</div>
-<div class="products_item">
-    <a href=""><img src="img/items/item3.jpg" alt="" class="item_img"/>
-
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339 грн</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887 грн</span>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="products_item">
-    <a href=""><img src="img/items/item4.jpg" alt="" class="item_img"/>
-
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887 грн</span>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="products_item">
-    <a href=""><img src="img/items/item5.jpg" alt="" class="item_img"/>
-
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887 грн</span>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="products_item">
-    <a href=""><img src="img/items/item6.jpg" alt="" class="item_img"/>
-
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887 грн</span>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="products_item">
-    <a href=""><img src="img/items/item7.jpg" alt="" class="item_img"/>
-
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887</span>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="products_item">
-    <a href=""><img src="img/items/item8.jpg" alt="" class="item_img"/>
-
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887</span>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="products_item">
-    <a href=""><img src="img/items/item9.jpg" alt="" class="item_img"/>
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887</span>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="products_item">
-    <a href=""><img src="img/items/item10.jpg" alt="" class="item_img"/>
-
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887</span>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="products_item">
-    <a href=""><img src="img/items/item11.jpg" alt="" class="item_img"/>
-
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887</span>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="products_item">
-    <a href=""><img src="img/items/item12.jpg" alt="" class="item_img"/>
-
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887</span>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="products_item">
-    <a href=""><img src="img/items/item1.jpg" alt="" class="item_img"/>
-
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887</span>
-            </div>
-        </div>
-    </a>
-</div>
-<div class="products_item">
-    <a href=""><img src="img/items/item2.jpg" alt="" class="item_img"/>
-
-        <div class="products_item_info">
-            <div class="products_item_name">
-                <span class="products_item_brand">Cardo</span>
-                <span class="products_item_new_cost">339</span>
-            </div>
-            <div class="products_item_cost">
-                <span class="products_item_category">Платье</span>
-                <span class="products_item_old_cost">887</span>
-            </div>
-        </div>
-    </a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="scrollbox">
-</div>
-</div>
-
-<!--main end-->
-
-<!--footer-->
-
-<div class="footer">
-    <div class="footer_container">
-        <div class="footer_left_panel">
-            <div class="footer_logo"><a href=""><img src="img/logo.png" alt=""/></a></div>
-            <div class="footer_copyright"><p>&copy; 2007 - 2015 ООО "Маркасов"</p>
-
-                <p>Все права защищены</p></div>
-            <div class="footer_icon_gg"><img src="img/gg-play.png" alt=""/></div>
-            <div class="footer_icon_app"><img src="img/app-store.png" alt=""/></div>
-            <div class="footer_icon_visa"><img src="img/visa.png" alt="" class="img_mcard"/><img src="img/mcard.png" alt=""/></div>
-        </div>
-        <div class="footer_info">
-            <div class="footer_info_left">
-                <ul class="footer_list">
-                    <li class="footer_list_first"><a href="" class="footer_info_item">О modnaKasta</a></li>
-                    <li><a href="" class="footer_info_item">О шопинг-клубе</a></li>
-                    <li><a href="" class="footer_info_item">Почему покупают у нас</a></li>
-                    <li><a href="" class="footer_info_item">Бренды</a></li>
-                    <li><a href="" class="footer_info_item">Мы</a></li>
-                    <li><a href="" class="footer_info_item">Карьера</a></li>
-                    <li><a href="" class="footer_info_item">Блог</a></li>
-                    <li><a href="" class="footer_info_item">Каталоги</a></li>
-                </ul>
-            </div>
-            <div class="footer_info_right">
-                <ul class="footer_list">
-                    <li class="footer_list_first"><a href="" class="footer_info_item">Помощь</a></li>
-                    <li><a href="" class="footer_info_item">Оплата</a></li>
-                    <li><a href="" class="footer_info_item">Доставка</a></li>
-                    <li><a href="" class="footer_info_item">Возврат</a></li>
-                    <li><a href="" class="footer_info_item">Персональный счет</a></li>
-                    <li><a href="" class="footer_info_item">Бонусы</a></li>
-                    <li><a href="" class="footer_info_item">Контакты</a></li>
-                    <li><a href="" class="footer_info_item">Вопросы-ответы</a></li>
+        <div class="footer__centre_right">
+            <div class="user__help">
+                <ul class="help__list">
+                    <li class="help__first-item"><a href="" class="">Помощь</a></li>
+                    <li class="help__item"><a href="" class="help__link">Оплата</a></li>
+                    <li class="help__item"><a href="" class="help__link">Доставка</a></li>
+                    <li class="help__item"><a href="" class="help__link">Возврат</a></li>
+                    <li class="help__item"><a href="" class="help__link">Персональный счет</a></li>
+                    <li class="help__item"><a href="" class="help__link">Бонусы</a></li>
+                    <li class="help__item"><a href="" class="help__link">Контакты</a></li>
+                    <li class="help__item"><a href="" class="help__link">Вопросы-ответы</a></li>
                 </ul>
             </div>
         </div>
-        <div class="footer_social">
-            <span class="footer_social_title">Следуйте за нами</span>
-            <a href=""><i class="fb_icon"></i><span>Facebook</span></a>
-            <a href=""><i class="vk_icon"></i><span>Вконтакте</span></a>
-            <a href=""><i class="tw_icon"></i><span>Twitter</span></a>
-            <a href=""><i class="gg_icon"></i><span>Google+</span></a>
+        <div class="footer__right">
+            <div class="social">
+                <ul class="social__list">
+                    <li class="social__first-item"><a class="" href="">Следуйте за нами</a></li>
+                    <li class="social__item social-link__fb"><a class="social-item__icon" href="">Facebook</a></li>
+                    <li class="social__item social-link__vk"><a class="social-item__icon" href="">Вконтакте</a></li>
+                    <li class="social__item social-link__tw"><a class="social-item__icon" href="">Twitter</a></li>
+                    <li class="social__item social-link__gg"><a class="social-item__icon" href="">Google</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
 
-<!--footer end-->
+    <!--footer end-->
+</div>
 </body>
 </html>
