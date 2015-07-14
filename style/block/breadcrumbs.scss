@@ -1,0 +1,13 @@
+.breadcrumbs {
+  position: absolute;
+  top: 133px;
+  left: 80px;
+  color: white;
+}
+
+.breadcrumbs__link {
+  color: #ffffff;
+  &:hover {
+    text-decoration: underline;
+  }
+}

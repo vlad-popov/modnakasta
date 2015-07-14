@@ -1,0 +1,23 @@
+.about-mk__title, .help__title, .social__title {
+  margin-bottom: 21px;
+  font-size: 18px;
+  color: #9fafb8;
+}
+
+.about-mk__link, .help__link, .about-mk__link {
+  padding: 6px 8px;
+  display: block;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.about-mk__item, .help__item {
+  margin-left: -8px;
+}
+
+.logo_footer {
+  margin-top: -17px;
+  margin-bottom: 22px;
+}

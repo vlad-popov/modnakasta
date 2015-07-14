@@ -1,0 +1,12 @@
+.scroll-up {
+  width: 41px;
+  height: 40px;
+  background: url("../img/up.png");
+  position: fixed;
+  right: 90px;
+  top: 350px;
+  cursor: pointer;
+  border-radius: 7px;
+  display: none;
+//  transition:  display 1s;
+}

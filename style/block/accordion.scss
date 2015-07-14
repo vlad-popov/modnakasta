@@ -1,0 +1,54 @@
+.accordion__filters-selection {
+  margin-bottom: 12px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #efefef;
+  padding: 12px;
+}
+
+.accordion__stock-right {
+  margin: 0px 3px;
+  font-size: 15px;
+}
+
+.accordion__stock {
+  display: flex;
+  background: #efefef;
+  padding: 12px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.accordion__stock-item {
+  margin-left: 6px;
+}
+
+.accordion__sort-by {
+  color: #626f77;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.accordion__icon, .accordion__icon-down {
+  display: inline-block;
+  width: 14px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.accordion__icon {
+  background: url("../img/ar.png") no-repeat 0px 2px;
+
+}
+
+.accordion__icon-down {
+  background: url("../img/ar_down.png") no-repeat 0px 7px;
+}
+
+.accordion__stock-left {
+  display: flex;
+}

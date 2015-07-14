@@ -1,0 +1,15 @@
+.menu__list {
+  display: flex;
+  margin-left: -32px;
+}
+
+.menu__link {
+  padding: 19px 32px;
+  color: #ffffff;
+  font-size: 18px;
+  display: block;
+  letter-spacing: 0.2px;
+  &:hover span {
+    border-bottom: 2px solid deeppink;
+  }
+}

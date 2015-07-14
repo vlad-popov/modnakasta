@@ -1,0 +1,35 @@
+.search-bar {
+  margin-right: 107px;
+  position: relative;
+  margin-top: 5px;
+}
+
+.search-bar__field {
+  width: 220px;
+  height: 25px;
+  outline: none;
+  text-indent: 5px;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.search-bar__button {
+  background-color: #47ff28;
+  width: 46px;
+  height: 31px;
+  position: relative;
+  top: 8px;
+  right: 5px;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.search-bar__icon {
+  width: 46px;
+  height: 31px;
+  position: absolute;
+  background: url("../img/search.png") no-repeat 15px 7px;
+  top: 0;
+  left: 0;
+}

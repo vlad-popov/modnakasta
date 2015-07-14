@@ -1,0 +1,53 @@
+.user-panel {
+  display: flex;
+}
+
+.user-panel__tel-number {
+  color: #9fafb8;
+  padding-top: 14px;
+  font-size: 13px;
+}
+
+.user-panel__list {
+  display: flex;
+}
+
+.user-panel__list {
+  padding: 0px 91px 0px 30px;
+}
+
+.user-panel__link {
+  padding: 14px 15px;
+  display: block;
+  font-size: 13px;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+.user-panel__basket-icon {
+  background: url("../img/basket.png") no-repeat 9px 14px;
+  display: inline-block;
+  width: 40px;
+  height: 32px;
+  position: relative;
+  top: -12px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.user-panel__basket {
+  position: relative;
+  margin-left: 10px;
+}
+
+.user-panel__icon {
+  background: url("../img/circ.png") no-repeat 0px 0px;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  position: absolute;
+  right: 28px;
+  top: 4px;
+}

@@ -1,0 +1,31 @@
+.filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filters__item {
+  position: relative;
+  cursor: pointer;
+}
+
+.filters__checkbox {
+  visibility: hidden;
+  position: absolute;
+  &:checked {
+    + .filters__name {
+      background: $green;
+      color: #fff;
+    }
+  }
+}
+
+.filters__name {
+  margin: 5px 5px;
+  padding: 4px 8px 3px 8px;
+  border: 1px solid #cccccc;
+  border-radius: 13px;
+  &:hover {
+    background: #e3e3e3;
+  }
+}

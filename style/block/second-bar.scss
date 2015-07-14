@@ -1,0 +1,14 @@
+.second-bar {
+  background: #151617;
+  border-top: #323537 1px solid;
+  border-bottom: $green 3px solid;
+}
+
+.second-bar__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  margin: auto;
+  height: 60px;
+
+}

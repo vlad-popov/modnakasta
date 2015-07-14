@@ -1,0 +1,17 @@
+.main {
+  background: #fbfbfb;
+}
+
+.main__container {
+  width: 1280px;
+  margin: auto;
+  display: flex;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+  width: 69%;
+  padding: 0 0 100px 22px;
+}
